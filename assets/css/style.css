@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +30,6 @@ div .card .card-body {
 .size {
     font-size: 13px;
 }
-
 .navbar.navbar-expand-lg {
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
@@ -40,4 +40,41 @@ div .card .card-body {
 .card.brand-image{
     width: 15%;
     border: 0;
+}
+.card-body .card-text{
+    font-size: .8rem;
+}
+.card-body .card-text small{
+    font-size: 1rem;
+    color: #4e7bbc;
+}
+.card-group .card{
+    border: 1px solid #000;
+}
+.subtitle{
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: .18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #4e4d4d;
+    border-bottom: 2px solid #7a7a7a;
+    padding-bottom: 10px;
+}
+.search-bar{
+    height: 1.5rem;
+}
+.btn.session-button{
+    background-color: #fd611a;
+    color: #FFFFFF;
+    width: 250px;
+    height: 3rem;
+    padding: 0;
+}
+.btn.session-button:hover{
+    background-color: #d14c0f;
+    color: #FFFFFF;
 }
